@@ -1,0 +1,99 @@
+.wrapper {
+  margin: 1px;
+  border: 1px solid blue;
+  height: 100%;
+  padding-bottom: 35%;
+  padding-left: 2%;
+  padding-top: 2%;
+}
+#lebel1 {
+  font-size: 1.2em;
+}
+#lebel2 {
+  font-size: 1.2em;
+}
+#lebel3 {
+  font-size: 1.2em;
+}
+#lebel4 {
+  font-size: 1.2em;
+  margin-right: 15%;
+}
+#lebel5 {
+  font-size: 1.2em;
+  margin-right: 12%;
+  padding-top: 5%;
+}
+#lebel6 {
+  font-size: 1.2em;
+}
+#name {
+  border: 1px solid black;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  padding-left: 10%;
+  margin-left: 13%;
+}
+#email {
+  border: 1px solid black;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  padding-left: 10%;
+  margin-left: 13%;
+  margin-top: 3%;
+}
+#education {
+  border: 1px solid black;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  padding-left: 10%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+#hobbies {
+  border: 1px solid black;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  padding-left: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+#commentbox {
+  border: 1px solid black;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 10%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+/* #hobby1
+{
+    margin-left: 1%;
+} 
+#hobby2
+{
+    margin-left: 1%;
+} 
+#hobby3
+{
+    margin-left: 1%;
+}  */
+#button {
+  border: 1px solid black;
+  padding-top: 1px;
+  padding-left: 20%;
+  background-color: blue;
+  font-size: 2em;
+  padding-right: 20%;
+  padding-bottom: 1px;
+  margin-top: 3%;
+}
+#para1,
+#para2,
+#para3,
+#para4,
+#para5,
+#para6 {
+  margin-left: 20%;
+}

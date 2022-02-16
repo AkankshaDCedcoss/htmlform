@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>htmlform</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="div1">
+        <label id="lebel1">Name</label>
+        <input type="text" id="name" value="" />
+        <p id="para1">Name can not be left blank</p>
+      </div>
+      <div class="div2">
+        <label id="lebel2">Email</label>
+        <input type="email" id="email" value="" />
+        <p id="para2">Email can not be left blank</p>
+      </div>
+      <div class="div3">
+        <label id="lebel3">Education</label>
+        <select name="education" id="education">
+          <option value="highschool">highschool</option>
+          <option value="intermediate">intermediate</option>
+          <option value="graduation">graduation</option>
+          <option value="masters">masters</option>
+        </select>
+        <p id="para3">Tell us about your Education</p>
+      </div>
+      <div class="div4" id="gender">
+        <label id="lebel4">Gender</label>
+        Male: <input type="radio" id="male" name="gender" value="Male" />  
+        Female:
+        <input type="radio" id="female" name="gender" value="Female" />
+        <p id="para4">Specify ypur Gender</p>
+      </div>
+      <div class="div5" id="hobby">
+        <label id="lebel5">Hobbies</label>
+        <label for="hobby1"> Drawing</label>
+
+        <input type="checkbox" id="hobby1" name="hobby" value="drawing" />
+        <label for="hobby2"> Singing</label>
+
+        <input type="checkbox" id="hobby2" name="hobby" value="singing" />
+        <label for="hobby3"> Dancing</label>
+
+        <input type="checkbox" id="hobby3" name="hobby" value="dancing" />
+        <p id="para5">What are your Hobbies</p>
+      </div>
+      <div class="div6">
+        <label id="lebel6">Comment</label>
+        <input type="text" id="commentbox" value="" />
+        <p id="para6">This field is required</p>
+      </div>
+      <div class="div7">
+        <button type="submit" id="button">Submit</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
