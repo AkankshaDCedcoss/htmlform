@@ -11,12 +11,7 @@ $(document).ready(function () {
     var education = $("#education :selected").text();
     var gender = $("input[type='radio'][name='gender']:checked").val();
     var hobbies = $('input[name="hobby"]:checked').serialize();
-    console.log(hobbies);
-    console.log(gender);
-    console.log(name);
-    console.log(education);
     var comment = document.getElementById("commentbox").value;
-    console.log(comment);
     if (name == "") {
       $("#para1").show().css("color", "red");
       $("#name").css("border", "1px solid red");
@@ -49,6 +44,14 @@ $(document).ready(function () {
       $("#para6").show().css("color", "red");
     } else if (Number.isInteger(parseInt(name))) {
       alert("name can not be a number");
+    }
+    else{
+      $("#para1").hide();
+      $("#para2").hide();
+      $("#para3").hide();
+      $("#para4").hide();
+      $("#para5").hide();
+      $("#para6").hide();
     }
   });
   $("#email").change(function () {
